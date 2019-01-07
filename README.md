@@ -1,5 +1,5 @@
-# RSEI
-
+# Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment (RSEI) <br>
+# Lu, Tao and Wang, Jiaming and Zhou, Huabing and Jiang, Junjun and Ma, Jiayi and Wang, Zhongyuan <br>
 @article{lu2018rectangular, <br>
   title={Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment}, <br>
   author={Lu, Tao and Wang, Jiaming and Zhou, Huabing and Jiang, Junjun and Ma, Jiayi and Wang, Zhongyuan}, <br>
