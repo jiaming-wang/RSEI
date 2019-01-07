@@ -2,15 +2,14 @@
 
 %%参数设定
 %设定超像素个数
-K = 4;
+K = 5;
 %设定超像素紧凑系数
 m_compactness = 20;
 img_num = 1;
 
-
 for img_index = 1:1
-HR_path = strcat('C:\Users\wang\Desktop\1\1.png');
-LR_path = strcat('C:\Users\wang\Desktop\1\1.png');
+HR_path = strcat('F:\研究生\数据集\遥感影像\test\1.tif');
+LR_path = strcat('F:\研究生\ME\论文\MSRSR\数据\msrsr\1.png');
 img = imread(HR_path);
 img_size = size(img);   %三个元素：图像的高、图像的宽、图像的通道数
 
@@ -57,6 +56,7 @@ img_Contours = DrawContoursAroundSegments(img, klabels);
 %合并小的分区
 nlabels = EnforceLabelConnectivity(img_Lab, klabels, K); 
 img1 = imread(LR_path);%低分辨率图片
+toc
 for label =1:max(max(nlabels))
 % for label =14:14
     new_nlabels = nlabels;
@@ -92,6 +92,7 @@ Ha_sum = sum(Ha_l);
 new_Ha = Ha_l /Ha_sum;
 pic_MI(img_index) = sum(new_Ha .* mi_sum_l);
 end
+toc
 fprintf('-------------------- \n');
 fprintf('RSEI : %f \n', mean(pic_MI,2));
 
