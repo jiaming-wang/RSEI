@@ -2,8 +2,8 @@
 
 If you find this work useful, please consider citing it.
 ```
-@article{lu2018rectangular, <br>
-  title={Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment}, <br>
+@article{lu2018rectangular, 
+  title={Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment}, 
   author={Lu, Tao and Wang, Jiaming and Zhou, Huabing and Jiang, Junjun and Ma, Jiayi and Wang, Zhongyuan}, <br>
   journal={Entropy}, <br>
   volume={20}, <br>
