@@ -1,5 +1,7 @@
 # Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment (RSEI) <br>
- 
+
+If you find this work useful, please consider citing it.
+```
 @article{lu2018rectangular, <br>
   title={Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment}, <br>
   author={Lu, Tao and Wang, Jiaming and Zhou, Huabing and Jiang, Junjun and Ma, Jiayi and Wang, Zhongyuan}, <br>
@@ -10,3 +12,4 @@
   year={2018}, <br>
   publisher={Multidisciplinary Digital Publishing Institute} <br>
 }
+```
